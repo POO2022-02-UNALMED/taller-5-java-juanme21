@@ -9,11 +9,11 @@ import org.junit.jupiter.api.TestMethodOrder;
 
 import gestion.Zona;
 import gestion.Zoologico;
-import zooAnimalesAnimales.Anfibio;
-import zooAnimalesAnimales.Ave;
-import zooAnimalesAnimales.Mamifero;
-import zooAnimalesAnimales.Pez;
-import zooAnimalesAnimales.Reptil;
+import zooAnimales.Anfibio;
+import zooAnimales.Ave;
+import zooAnimales.Mamifero;
+import zooAnimales.Pez;
+import zooAnimales.Reptil;
 
 @TestMethodOrder(MethodOrderer.Alphanumeric.class)
 public class TestCantidades {
