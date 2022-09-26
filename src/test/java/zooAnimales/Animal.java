@@ -31,7 +31,7 @@ public class Animal {
 	public String movimiento() {
 		return "desplazarse";
 	}
-	public void totalPorTipo(){
+	public static void totalPorTipo(){
 		System.out.println("Mamiferos: " + Mamifero.cantidadMamiferos());
 		System.out.println("Aves: " + Ave.cantidadAves());
 		System.out.println("Reptiles: " + Reptil.cantidadReptiles());

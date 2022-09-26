@@ -11,6 +11,10 @@ public class Zona {
 
 
 	
+	public Zona() {
+		super();
+	}
+
 	public Zona(String nombre, Zoologico zool) {
 		super();
 		this.nombre = nombre;
