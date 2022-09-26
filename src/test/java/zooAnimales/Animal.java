@@ -31,6 +31,7 @@ public class Animal {
 	public String movimiento() {
 		return "desplazarse";
 	}
+	
 	public static String totalPorTipo(){
 		String str = "Mamiferos: " + Mamifero.cantidadMamiferos() + "\n" + "Aves: " + Ave.cantidadAves() + "\n" 
 				+ "Reptiles: " + Reptil.cantidadReptiles() + "\n" + "Peces: " + Pez.cantidadPeces() + "\n"
@@ -39,7 +40,7 @@ public class Animal {
 	}
 	
 	public String toString() {
-	String str = "Mi nombre es " + this.nombre + " tengo una edad de " + this.edad + ", habito en "
+	String str = "Mi nombre es " + this.nombre + ", tengo una edad de " + this.edad + ", habito en "
 			+ this.habitat + " y mi genero es " + this.genero;
 	return str;
 	}
