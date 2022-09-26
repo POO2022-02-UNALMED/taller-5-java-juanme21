@@ -1,18 +1,26 @@
 package gestion;
 
+import java.util.ArrayList;
+
+
 public class Zoologico {
 	
 	private String nombre;
 	private String ubicacion;
-	private Zona[] zonas;
+	private ArrayList<Zona> zonas = new ArrayList<Zona>();
+
 	
-	public Zoologico(String nombre,String ubicacion,Zona[] zonas) {
-		this.nombre =nombre;
-		this.ubicacion=ubicacion;
-		this.zonas = zonas;
-		
+
+	public Zoologico() {
+		super();
 	}
-	
+
+	public Zoologico(String nombre, String ubicacion) {
+		super();
+		this.nombre = nombre;
+		this.ubicacion = ubicacion;
+	}
+
 	public void agregarZonas() {
 	
 	}
