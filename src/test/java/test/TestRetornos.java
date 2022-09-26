@@ -49,7 +49,7 @@ public class TestRetornos {
 		if(an2.toString().equals(comp)) {
 			ok = true;
 		}
-		assertTrue(ok, "Hay un problema en el metodo toString de la clase Animal", an2.toString());
+		assertTrue(ok, "Hay un problema en el metodo toString de la clase Animal"+an2.toString());
     }
 	
 	@Test
