@@ -21,11 +21,14 @@ public class Zoologico {
 		this.ubicacion = ubicacion;
 	}
 
-	public void agregarZonas() {
-	
+	public void agregarZonas(Zona z) {
+		zonas.add(z);
 	}
 	
-	public void cantidadTotalAnimales() {
-		
+	public int cantidadTotalAnimales() {
+		int total = 0;
+		for (int i = 0; i < zonas.size(); i++)
+	        total += zonas.get(i).cantidadAnimales();
+		return total;
 	}
 }
