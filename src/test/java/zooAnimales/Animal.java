@@ -31,17 +31,17 @@ public class Animal {
 	public String movimiento() {
 		return "desplazarse";
 	}
-	public static void totalPorTipo(){
-		System.out.println("Mamiferos: " + Mamifero.cantidadMamiferos());
-		System.out.println("Aves: " + Ave.cantidadAves());
-		System.out.println("Reptiles: " + Reptil.cantidadReptiles());
-		System.out.println("Peces: " + Pez.cantidadPeces());
-		System.out.println("Anfibios: " + Anfibio.cantidadAnfibios());
-	}
-	public String toString() {
-		String str = "Mi nombre es " + this.nombre + " tengo una edad de " + this.edad + ", habito en "
-				+ this.habitat + " y mi genero es " + this.genero;
+	public static String totalPorTipo(){
+		String str = "Mamiferos: " + Mamifero.cantidadMamiferos() + "\n" + "Aves: " + Ave.cantidadAves() + "\n" 
+				+ "Reptiles: " + Reptil.cantidadReptiles() + "\n" + "Peces: " + Pez.cantidadPeces() + "\n"
+				+ "Anfibios: " + Anfibio.cantidadAnfibios();
 		return str;
+	}
+	
+	public String toString() {
+	String str = "Mi nombre es " + this.nombre + " tengo una edad de " + this.edad + ", habito en "
+			+ this.habitat + " y mi genero es " + this.genero;
+	return str;
 	}
 
 
